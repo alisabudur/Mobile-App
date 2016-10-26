@@ -9,6 +9,6 @@ A user can add in app the announce that he travels from Cluj to Medias or vice v
 date and time of  departure and contact details(phone number, email). The user may delete the announce as well.
 Also, a user can see the announces of other users in order to contact them to travel together.
 
-An administrator can see all users, enable or disable them and change teir passwords. Also, he can see a bar chart of departures per day between two given dates.
+An administrator can see all users, enable or disable them and change their passwords. Also, he can see a bar chart of departures per day between two given dates.
 
 
