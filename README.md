@@ -1,3 +1,6 @@
+Name: Budur Alisa-Daniela
+Group: 932/2
+
 Travel App (from Cluj to Medias and vice versa)
 
 There are two types of roles: administrator and user;
