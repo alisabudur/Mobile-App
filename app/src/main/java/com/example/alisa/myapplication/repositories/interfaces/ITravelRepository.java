@@ -1,5 +1,7 @@
 package com.example.alisa.myapplication.repositories.interfaces;
 
+import android.content.Context;
+
 import com.example.alisa.myapplication.domain.Travel;
 
 import java.util.List;
@@ -9,6 +11,7 @@ import java.util.List;
  */
 
 public interface ITravelRepository {
-    public List<Travel> getTravelsByUser(long userId);
-    public void updateTravel(Travel travel);
+    List<Travel> getTravelsByUser(long userId);
+    void updateTravel(Travel travel);
+    long addTravel(Travel travel);
 }

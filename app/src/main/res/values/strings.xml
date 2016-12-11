@@ -1,11 +1,15 @@
 <resources>
     <string name="app_name">Travel App</string>
-    <string name="startLabel">Start: </string>
-    <string name="destinationLabel">Destination: </string>
+    <string name="startLabel">Start </string>
+    <string name="destinationLabel">Destination </string>
     <string name="updateButton">Update</string>
     <string name="cancelButton">Cancel</string>
     <string name="sendEmail">Send email</string>
     <string name="travelList">Go to travels list</string>
     <string name="email">Email: </string>
     <string name="emailSubject">Subject: </string>
+    <string name="addTravel">Add </string>
+    <string name="cancelAdd">Cancel </string>
+    <string name="addButton">Add new </string>
+    <string name="addTitle">Add a travel</string>
 </resources>

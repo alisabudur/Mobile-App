@@ -7,13 +7,21 @@ import java.util.Date;
  */
 
 public class Travel {
-    private Integer id;
+    private long id;
     private String startLocation;
     private String endLocation;
     private Date date;
     private Integer userId;
 
-    public Travel(Integer id, String startLocation, String endLocation, Date date, Integer userId){
+    public Travel() {
+    }
+
+    public Travel(String stratLocation, String endLocation) {
+        this.startLocation = stratLocation;
+        this.endLocation = endLocation;
+    }
+
+    public Travel(long id, String startLocation, String endLocation, Date date, Integer userId) {
         this.id = id;
         this.startLocation = startLocation;
         this.endLocation = endLocation;
@@ -21,8 +29,12 @@ public class Travel {
         this.userId = userId;
     }
 
-    public Integer getId() {
+    public long getId() {
         return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public String getStartLocation() {

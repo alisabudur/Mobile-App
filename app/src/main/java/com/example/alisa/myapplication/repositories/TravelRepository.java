@@ -1,5 +1,7 @@
 package com.example.alisa.myapplication.repositories;
 
+import android.content.Context;
+
 import com.example.alisa.myapplication.domain.Travel;
 import com.example.alisa.myapplication.repositories.interfaces.ITravelRepository;
 
@@ -24,6 +26,7 @@ public class TravelRepository implements ITravelRepository {
         travelList.add(new Travel(4, "Zalau", "Oradea", new Date(), 1));
     }
 
+
     @Override
     public List<Travel> getTravelsByUser(long userId) {
         return travelList;
@@ -39,7 +42,12 @@ public class TravelRepository implements ITravelRepository {
         }
     }
 
-    public Travel getById(Integer id) {
+    @Override
+    public long addTravel(Travel travel) {
+        return 0;
+    }
+
+    public Travel getById(long id) {
         for (int i = 0; i < travelList.size(); i++) {
             if (travelList.get(i).getId() == id) {
                 return travelList.get(i);
